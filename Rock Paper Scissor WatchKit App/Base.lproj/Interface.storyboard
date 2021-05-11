@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="17701" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
-    <device id="watch38"/>
+    <device id="watch44"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="17500"/>
@@ -11,7 +11,29 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Rock_Paper_Scissor_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <imageView width="1" height="1" alignment="left" id="Ljo-ed-dAh"/>
+                        <imageView width="0.5" height="0.5" alignment="center" id="Ljo-ed-dAh"/>
+                        <separator alignment="left" id="s5O-Ua-DqD"/>
+                        <group width="1" height="0.33000000000000002" alignment="left" id="fGb-1e-MXH">
+                            <items>
+                                <button width="0.29999999999999999" alignment="left" id="ctI-H7-pUQ">
+                                    <color key="backgroundColor" red="0.45549075700000002" green="0.31709397010000001" blue="0.81635123239999996" alpha="1" colorSpace="calibratedRGB"/>
+                                </button>
+                                <button width="0.34000000000000002" alignment="left" id="I6C-Cr-5Va">
+                                    <color key="backgroundColor" red="0.45549075700000002" green="0.31709397010000001" blue="0.81635123239999996" alpha="1" colorSpace="calibratedRGB"/>
+                                </button>
+                                <button width="0.33000000000000002" alignment="left" id="cUX-pm-D2Q">
+                                    <color key="backgroundColor" red="0.45549075700000002" green="0.31709397010000001" blue="0.81635123239999996" alpha="1" colorSpace="calibratedRGB"/>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="yrI-fK-RDC">
+                            <items>
+                                <label alignment="left" text="1/20" id="HLy-2F-H0M"/>
+                                <timer alignment="right" id="G8o-VZ-llS">
+                                    <calendarUnit key="units" minute="YES" second="YES"/>
+                                </timer>
+                            </items>
+                        </group>
                     </items>
                 </controller>
             </objects>

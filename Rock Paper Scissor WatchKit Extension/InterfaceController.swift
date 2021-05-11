@@ -11,6 +11,21 @@ import Foundation
 
 class InterfaceController: WKInterfaceController {
 
+    @IBOutlet var question: WKInterfaceImage!
+    
+    @IBOutlet var answers: WKInterfaceGroup!
+    
+    @IBOutlet var rock: WKInterfaceButton!
+    
+    @IBOutlet var paper: WKInterfaceButton!
+    
+    @IBOutlet var scissor: WKInterfaceButton!
+    
+    @IBOutlet var levelCounter: WKInterfaceLabel!
+    
+    @IBOutlet var timer: WKInterfaceTimer!
+    
+    
     override func awake(withContext context: Any?) {
         // Configure interface objects here.
     }
@@ -23,4 +38,14 @@ class InterfaceController: WKInterfaceController {
         // This method is called when watch view controller is no longer visible
     }
 
+    @IBAction func rockTapped() {
+    }
+    
+    @IBAction func paperTapped() {
+    }
+    
+    @IBAction func scissorTapped() {
+    }
+    
+    
 }

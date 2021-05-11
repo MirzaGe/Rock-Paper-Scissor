@@ -17,12 +17,21 @@
                             <items>
                                 <button width="0.29999999999999999" alignment="left" id="ctI-H7-pUQ">
                                     <color key="backgroundColor" red="0.45549075700000002" green="0.31709397010000001" blue="0.81635123239999996" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="rockTapped" destination="AgC-eL-Hgc" id="rgT-ys-DIC"/>
+                                    </connections>
                                 </button>
                                 <button width="0.34000000000000002" alignment="left" id="I6C-Cr-5Va">
                                     <color key="backgroundColor" red="0.45549075700000002" green="0.31709397010000001" blue="0.81635123239999996" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="paperTapped" destination="AgC-eL-Hgc" id="OTo-oH-7WT"/>
+                                    </connections>
                                 </button>
                                 <button width="0.33000000000000002" alignment="left" id="cUX-pm-D2Q">
                                     <color key="backgroundColor" red="0.45549075700000002" green="0.31709397010000001" blue="0.81635123239999996" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="scissorTapped" destination="AgC-eL-Hgc" id="c8m-wo-MY1"/>
+                                    </connections>
                                 </button>
                             </items>
                         </group>
@@ -35,6 +44,15 @@
                             </items>
                         </group>
                     </items>
+                    <connections>
+                        <outlet property="answers" destination="yrI-fK-RDC" id="Rrm-JX-3NY"/>
+                        <outlet property="levelCounter" destination="HLy-2F-H0M" id="Oxe-58-Bq7"/>
+                        <outlet property="paper" destination="I6C-Cr-5Va" id="UPK-1T-bmD"/>
+                        <outlet property="question" destination="Ljo-ed-dAh" id="qge-2f-a2S"/>
+                        <outlet property="rock" destination="ctI-H7-pUQ" id="VFg-R7-eCp"/>
+                        <outlet property="scissor" destination="cUX-pm-D2Q" id="jOL-PK-KR5"/>
+                        <outlet property="timer" destination="G8o-VZ-llS" id="Di4-Iu-zTc"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="306" y="68"/>
